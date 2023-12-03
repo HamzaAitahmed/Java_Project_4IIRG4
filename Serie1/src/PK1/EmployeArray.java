@@ -63,7 +63,7 @@ public class EmployeArray {
 		{
 			if(i!=0)
 			{
-				if(employes[i].compareTo(employes[i-1]) > 0 )
+				if(employes[i].compareTo(employes[i]) > 0 )
 				{
 					grandEmploye = employes[i];
 				}
